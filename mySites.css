@@ -1,0 +1,75 @@
+
+body{
+
+  margin :0;
+  text-align: center;
+  font-family:"Merriweather",serif;
+  font-size: 200%;
+  text
+}
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family:"Sacramento",cursive;
+  line-height: 2;
+
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.5rem;
+    font-family:"Montserrat",sans-serif;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+h3{
+  color: #11999E
+    font-family:"Montserrat",sans-serif;
+}
+
+.top-container{
+  background-color: powderblue;
+ position: relative;
+ padding-top: 100px;
+
+
+}
+.middle-container{
+
+
+}
+.bottom-container{
+  padding-top: 20px;
+
+}
+.top{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.topcloud{
+
+  position: absolute;
+  right:300px;
+  top: 50px;
+
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.web{
+  width: 25%;
+  float:left;
+  margin-right:30px;
+
+}
+.cric{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
