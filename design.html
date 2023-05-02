@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="designstyles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Graphic Design Portfolio</h1>
+    </header>
+
+    <main>
+      <section id="intro" class="scroll">
+        <h2>Introduction</h2>
+        <p>Welcome to my graphic design portfolio! I'm excited to share my work with you.</p>
+      </section>
+
+      <section id="web-design" class="scroll">
+        <h2>Web Design</h2>
+        <div class="gallery">
+          <img class="modalImg" src="Images\Untitled design (5).png" alt="Web Design Example" />
+          <img class="modalImg" src="Images\Untitled design (6).png" alt="Web Design Example" />
+          <img class="modalImg" src="Images\Insta Post 1 (12).png" alt="Web Design Example" />
+        </div>
+      </section>
+
+      <section id="print-design" class="scroll">
+        <h2>Print Design</h2>
+        <div class="gallery">
+          <img class="modalImg" src="Images\PRATHNA CLINIC (2).png" alt="Print Design Example" />
+          <img class="modalImg" src="Images\Deepavali Minimalist Elegant Poster Gold.png" alt="Print Design Example" />
+          <img class="modalImg" src="Images\Colorful Modern Happy Makar Sankranti Instagram Post.png" alt="Print Design Example" />
+        </div>
+      </section>
+
+      <section id="motion-graphics" class="scroll">
+        <h2>Graphic Design</h2>
+        <div class="gallery">
+          <img class="modalImg" src="Images\Big Data Analytics & Platforms (3).png" alt="Motion Graphics Example" />
+          <img class="modalImg" src="Images\Blue Programming Competition Custom Template - Made with PosterMyWall (27).jpg" alt="Motion Graphics Example" />
+          <img class="modalImg" src="Images\2023.jpg" alt="Motion Graphics Example" />
+        </div>
+      </section>
+    </main>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Adarsh Gaurav Portfolio.</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
