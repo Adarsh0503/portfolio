@@ -5,6 +5,9 @@
   color:white;
 
 }
+.para{
+  padding: 1px 1.5px 1px 1.5px;;
+}
 .container-fluid{
   height: 120px;
 }
@@ -341,7 +344,127 @@ h1{
 
 
 @media screen and (max-width:400px) {
+  .pic{
+    height: 40%;
+    width: 40%;
+  }
+  .coverpic{
+    position:relative;
+    top: 80px;
+    height: 250px;
+    /* width: 340px; */
+    width: 100%;
+    left: -10px;
+
+    transform: rotate(0deg);
+
+
+  }
+  .hello{
+    font-size: 1.5rem;
+  }
+  .hel{
+    text-align: center;
+  }
+  .inlast1{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    /* width: 50%; */
+    background-color:#5858FF;
   
+  }
+  .inlast2{
+    /* background-color: yellow; */
+    position: relative;
+    height: 600px;
+    width: 100%;
+    left: 0%;
+    top: 500px;
+    background-color:#5858FF;
+     /* position: relative; */
+    /* height: 600px;
+    width: 50%;
+    bottom: 600px;
+    left: 50%; */
+  
+  
+  }
+  
+  .pix{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 600px;
+    z-index: 1;
+  
+  
+  
+  }
+  .hello{
+    text-align:center;
+    
+  
+  }
+ 
+  .h2{
+    position: relative;
+    left: -25px;
+    width: 100%;
+    top: 0px;
+    
+    
+    /* text-align: left; */
+    font-size: 2.25rem;
+    /* padding-top: 80px;
+    padding-left: 100px; */
+    /* left: 20px; */
+    top: 40px;
+  }
+  .h3{
+    position: relative;
+    font-size: 2.5rem;
+    width: 500px;
+    text-align: left;
+    top: 60px;
+    left: 115px
+  }
+  .hr{
+    /* align-self: center; */
+    border-radius:  10px solid;
+  
+  }
+  .last1{
+    height: 1000px;
+    z-index: -1;
+    
+  }
+  .info{
+    font-size: 1rem;;
+  background-color:#5858FF ;
+  height: 500px;
+  width: 60%
+  color: white;
+  /* left: 210px;; */
+  position: relative;
+  left: 50%;
+  top: -200px;
+  padding: 4px;
+  border-radius: 1.5px;
+  box-shadow: 5px 2px 5px 2px #3E3EFF;
+  transform: translate(-50%,-50%);
+  ;
+  }
+ 
+  .typewriter{
+/* padding-bottom: 10px; */
+font-size: 1.75rem;
+top:50px;
+left: 10%;
+letter-spacing: 0rem;
+  }
+  
+ 
 }
 
 
@@ -605,14 +728,6 @@ letter-spacing: 0rem;
   
 
 }
-
-
-
-
-
-
-
-
 
 li {
   list-style: none;
